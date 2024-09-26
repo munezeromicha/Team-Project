@@ -22,6 +22,6 @@ Profile Section: Similar to Person 2, Person 3 developed their own profile secti
 Footer Creation: Person 3 designed the footer that contains social media links for all team members. They ensured that these links are visually appealing and aligned horizontally.
 CSS Consistency: They contributed to maintaining consistent styling and structure across all profiles and collaborated on overall CSS design.
 
-MUNEZERO NTAGANIRA Michel
-MUNEZA Joseph
-NDAYISHIMIYE Paul
+- MUNEZERO NTAGANIRA Michel
+- MUNEZA Joseph
+- NDAYISHIMIYE Paul
