@@ -1,0 +1,165 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+@keyframes slide {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+header {
+  background-image: url("/Picture/Darkbuld.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  height: 800px;
+  position: relative;
+  animation: slide 2s linear infinite;
+}
+header h1{
+  text-align: center;
+  color: #FFFFFF;
+}
+header p {
+  color: #FFFFFF;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Restore overlay */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; 
+  gap: 5%;
+}
+.header-intro{
+  position: absolute;
+  top: 20%;
+}
+header nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 999;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.landing-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+.hobbyVideo{
+  width: 700px;
+  height: 200px;
+}
+.HobbyImage{
+  border-radius: 7px;
+}
+
+.about,
+.skills,
+.audio,
+.video {
+  flex: 1 1 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.hobbies {
+  flex: 1 1 300px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.partOne{
+  display: flex; 
+  gap: 10px;
+}
+
+.about img {
+  max-width: 200px;
+  border-radius: 7%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+}
